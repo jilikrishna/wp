@@ -3,8 +3,4 @@ os: linux
 files:
    - source: /
      destination: /var/www/html/wp
-       
-hooks:
-   AfterInstall:
-    - location: hooks/after-install.sh
-      runas: root
+    
